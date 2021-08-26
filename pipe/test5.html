@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>si industries</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="test5.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="test.css">
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style media="screen">
+.navbar {
+    margin-bottom: 0;
+      background: #f76c6c;
+    background: linear-gradient(to right,#8860d0,#5680e9,#5ab9ea,#84ceeb  ,#c1c8e4 );
+
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #9933ff !important;
+    background-color: #fff !important;
+}
+.thumbnailhoja:hover{
+  padding-top: 100px;
+}
+.pad{
+  padding-top: 0px;
+}
+
+</style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#myPage">Si</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="test5.html">HOME</a></li>
+        <li><a href="gal.html" id="gal">GALLERY</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="pricing.html">PRICING</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="jumbotron text-center">
+
+<div>
+  <h1>SHREEJI INDUSTRIES</h1>
+  <p>pvc pipe manufacturing</p>
+</div>
+</div>
+
+<div class="container-fluid text-center" style="background-image: url('back.jpg')">
+
+  <br>
+  <div class="row text-center">
+    <a href="services.html">
+    <div class="col-sm-4 pad" >
+      <div class="thumbnailhoja" >
+        <div class="hoja">
+SERVICES
+        </div>
+      </div>
+    </div>
+  </a>
+  <a href="pricing.html">
+    <div class="col-sm-4 pad">
+      <div class="thumbnailhoja" >
+        <div class="hoja">
+PRICING
+        </div>
+      </div>
+    </div>
+  </a>
+  <a href="contact.html">
+    <div class="col-sm-4 pad" >
+      <div class="thumbnailhoja" >
+        <div class="hoja">
+CONTACT
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>
+</div>
+
+<div id="contact" class="container-fluid" style="background-color:#282828 ;padding: 200px 50px;">
+  <h2 class="text-center"></h2>
+  <div class="row">
+    <div class="col-sm-5" style="color:aliceblue;">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> shreeji industries,opp old garden,amarnagar road,</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jetpur,rajkot,gujarat :360370</p>
+      <p><span class="glyphicon glyphicon-phone"></span> 02823222718</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> si@gmail.com</p>
+    </div>
+    <div class="col-sm-7">
+
+        <form class="form" action="./post" method="post">
+            <div class="row">
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          </div>
+        </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <input type="submit" class="btn btn-default pull-right" name="submit" value="submit">
+
+          </div>
+        </div>
+        </form>
+
+    </div>
+  </div>
+</div>
+
+</div>
+</body>
+<script type="text/javascript">
+
+function send(){
+
+  alert("your response has been submitted.Thankyou for visiting!");
+}
+
+
+
+</script>
+</html>
